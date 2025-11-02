@@ -177,7 +177,8 @@
         },
         {
           "name": "Speed",
-          "ioValue": 1500
+          "ioValue": 1500,
+          "currentEquation": "1500"
         },
         {
           "name": "Cut Through",
@@ -189,7 +190,7 @@
         }
       ],
       "partName": "tutorial-default",
-      "sortDirection": "Left"
+      "sortDirection": "Top"
     },
     {
       "atomType": "Export",
@@ -259,10 +260,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-31",
       "ap2ID": "id-39"
+    },
+    {
+      "ap1Name": "output",
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-31",
+      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": {},
+  "compiledBom": [],
   "filetypeVersion": 1
 }
